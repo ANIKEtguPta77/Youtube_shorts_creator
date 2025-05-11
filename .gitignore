@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+token.json
+client_secret_cutevibes.json
+.DS_Store
+coverage/
+dist/
+build/
+*.log
+.idea/
+.vscode/
+.eslintcache
