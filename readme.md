@@ -1,68 +1,28 @@
-# Online Ordering System - Next.js & MongoDB
+# ShortlyGen - AI-Powered YouTube Shorts Creator
 
-This web application allows restaurant owners to manage their menu and orders in real-time while enabling customers to place orders seamlessly online. The application reduces managerial involvement by 80% and enhances the ordering process using cross-functional technologies.
+ShortlyGen is an AI-driven application that automates the creation of YouTube Shorts using advanced AI models for text, images, and music generation. This project leverages the Flux-1 model for topic-specific text generation, Phi-3.5 for image creation, and YouTube Music for song recommendations to achieve complete video creation in approximately 10 minutes per YouTube Short.
 
 ## 📦 Tech Stack
 
-* Next.js
-* MongoDB
-* TailwindCSS
+* Flux-1 for Text Generation
+* Phi-3.5 for Image Creation
+* YouTube Music API
 * Node.js
 * Express
-* JWT Authentication
+* FFmpeg for Video Compilation
 
-## 🌐 Live Demo
+## 🌐 Watch Shorts on YouTube
 
-[Project Link](https://your-project-link.com)
-
----
-
-## 📸 Screenshots
-
-### Phase 1: Restaurant Owner Use Case
-
-1. **Before Login:**
-   ![Before Login](readme_images/l1.PNG)
-
-2. **After Login:**
-   ![After Login](readme_images/o3.PNG)
-
-3. **Menu for Restaurant Owner:**
-   ![Menu](readme_images/o1.PNG)
-
-4. **Order Received:**
-   ![Order Received](readme_images/o4.PNG)
-
-5. **Order Prepared:**
-   ![Order Prepared](readme_images/o5.PNG)
-
-6. **Add Item:**
-   ![Add Item](readme_images/o6.PNG)
-
-7. **Delete Item or Temporarily Unavailable:**
-   ![Delete Item](readme_images/o7.PNG)
-
----
-
-### Phase 2: Customer Use Case
-
-1. **Customer Menu:**
-   ![Customer Menu](readme_images/c1.PNG)
-
-2. **Items Added to Cart:**
-   ![Items Added](readme_images/c2.PNG)
-
-3. **Order Summary:**
-   ![Order Summary](readme_images/c3.PNG)
+[YouTube Channel Link](https://www.youtube.com/@aniketgupta4481/shorts)
 
 ---
 
 ## 🚀 Features
 
-* Real-time menu management
-* Order tracking for restaurant owners
-* Customer order placement and tracking
-* Authentication and authorization
+* AI-powered text generation based on trending topics
+* Automated image creation using Phi-3.5
+* Music recommendation sourced from YouTube Music
+* End-to-end video creation and compilation
 
 ## 🛠️ Setup
 
@@ -82,14 +42,15 @@ This web application allows restaurant owners to manage their menu and orders in
 3. Configure the environment variables in a `.env` file:
 
    ```env
-   MONGODB_URI=your-mongodb-uri
-   JWT_SECRET=your-jwt-secret
+   FLUX_API_KEY=your-flux-api-key
+   PHI_API_KEY=your-phi-api-key
+   YOUTUBE_API_KEY=your-youtube-api-key
    ```
 
-4. Start the server:
+4. Run the application:
 
    ```bash
-   npm run dev
+   npm start
    ```
 
 ---
